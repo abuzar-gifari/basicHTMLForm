@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+}
+
+body {
+	font-family: arial, Sans-serif;
+	background: #bfbec2;
+	color: white;
+	line-height: 1.8;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	margin: 30px auto;
+	max-width: 450px;
+	padding: 20px
+}
+
+.boro_section {
+	background: white;
+	padding: 15px 25px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	color: #d35400;
+}
+
+.boro_section h1,
+.boro_section p {
+	text-align: center;
+}
+
+.boro_section .section {
+	margin-top: 15px;
+}
+
+.boro_section .section label {
+	display: block;
+	color: #3498db;
+}
+
+.boro_section .section input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.boro_section .btn {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	background: #27ae60;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 6px;
+	font-weight: bold;
+	border:none;
+}
+
+.btn{
+	margin:10px 0;
+}
+
+.boro_section .btn:hover {
+	background: #e74c3c;
+}
+
+
+.boro_section .bottom-text {
+	font-size: 12px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.boro_section a,
+.bottom-a {
+	font-size: 10px;
+	text-align: center;
+}
